@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terraria Wiki</title>
+    <link rel="icon" type="image/x-icon" href="img/icon.png">
+
+    <style type="text/css">
+        body{
+            margin: 0px;
+            font-family: sans-serif;
+
+            background-image: url("img/background.png");
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-size: 100%;
+            background-attachment: fixed;
+        }
+
+        mark {
+            background-color: white;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 1000;
+
+            background-color: #1c1614;
+            color:white;
+            padding: 10px;
+            letter-spacing: 2px; 
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            color: green;
+            text-decoration: underline;
+        }
+
+        nav input[type="text"] {
+            height: unset;
+            padding: 0 26px 0 4px;
+            box-shadow: none;
+            align-self: stretch;
+
+            border-radius: 5px;
+            border-width: 1px;
+            border-style: solid;
+            border-color: lightgray;
+            
+            background-color: lightgray;
+            color: black;
+        }
+
+        #titulo {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+
+            width: 40%;
+        }
+
+        table, td, th {
+            border: solid 2px white;
+            border-collapse: collapse;
+        }
+
+        #rowDes {
+            width: 30%;
+        }
+
+        audio {
+            position: relative;
+        }
+
+        #corpo {
+            margin: 10vh;
+            margin-top: 10vh;
+            margin-bottom: 5vh;
+            padding: 5%;
+
+            line-height: 30px;
+
+            display: flex;
+            flex-direction: column;
+            align-items: justify;
+
+            background-color: #5a433a;
+            color: white;
+            border-radius: 20px;
+        }
+
+        #corpo a {
+            color: #88c288;
+            text-decoration: underline;
+        }
+
+        #corpo a:hover {
+            color: #88c288;
+            text-decoration: underline;
+            font-weight: bolder;
+        }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <span><a href="entrar.html">Entrar</a></span>
+        <span><a href="bosses.html">Bosses</a></span>
+        <span><a target="_blank" href="https://store.steampowered.com/app/105600/Terraria/">Compre o jogo</a></span>
+
+        <input type="text" name="busca" placeholder="Buscar">
+    </nav>
+
+    <div id="corpo">
+
+    <div id="tabelaNav">
+        <img src="img/logoterraria.png" id="titulo">
+
+        <br><hr><br>
+
+        <table margin="5px" cellpadding="20">
+            <tr>
+                <th rowspan="3">Índice</th>
+                <td><a href="#sobre">Sobre</a></td>
+                <th rowspan="4" >
+                    <audio autoplay="false" controls><source src="img/day.mp3" type="audio/mp3"></audio>
+                </th>
+            </tr>
+            <tr>
+                <td><a href="#jogabilidade">Jogabilidade</a></td>
+            </tr>
+            <tr>
+                <td id="rowDes"><a href="#desenvolvimento">Desevolvimento</a></td>
+            </tr>
+        </table>
+    </div>
+
+    <h2 class="subtitle" id="sobre"><u><mark>Sobre</mark></u></h2>
+
+    <p><i><b>Terraria</b></i> é um jogo eletrônico RPG de ação-aventura independente produzido pela desenvolvedora de jogos Re-Logic. Possui como características a exploração, artesanato, construção de estruturas e combate a monstros perigosos em um mundo 2D gerado de forma procedural. Lançado no dia 16 de maio de 2011, o jogo vendeu mais de 45 milhões de cópias, recebendo atualizações gratuitas mesmo mais de dez anos depois de seu lançamento.</p>
+
+    <h2 class="subtitle" id="jogabilidade"><u><mark>Jogabilidade</mark></u></h2>
+
+    <p>Terraria é um jogo bidimensional do gênero Sandbox. A jogabilidade de Terraria envolve mineração, exploração, construção e combate, com modos um jogador e multijogador. Terraria é frequentemente comparado com jogos como Minecraft e Metroid devido suas semelhanças de design de jogo.</p>
+
+    <p>Antes de começar, o jogador possui a possibilidade de personalizar seu personagem, nível de dificuldade, tamanho do mapa, atalhos do teclado, a cor do cursor, dentre diversas outras opções.<br>O jogo se inicia em um <u>mundo procedural</u>, com o jogador iniciando com diversas ferramentas básicas necessárias para o combate e aquisição de recursos. O personagem do jogador também conta com medidores de vida e magia que podem ser expandidos ao decorrer do jogo. Um NPC guia estará sempre presente nos primeiros momentos, oferecendo dicas sobre como progredir e opção de verificar materiais necessários para se produzir novos itens.</p>
+
+    <p>Ao se construir casas habitáveis e cumprir certos objetivos, novos personagens surgirão e ocuparão as residências, oferecendo serviços como mercadores ou curandeiros. Atualmente, é possível se encontrar 22 personagens diferentes, além de 3 NPCs viajantes que não precisam de uma residência. Dentre os serviços oferecidos estão cura, venda de itens e distribuição de missões onde o jogador poderá utilizar suas moedas, obtidas por derrotar monstros, destruir vasos, ou em baús e tesouros escondidos pelo mapa.</p>
+
+    <p>Uma das características principais de Terraria é a existência de múltiplos biomas repletos de ruínas e tesouros, habitados por diversos tipos de criaturas. Alguns biomas comuns incluem florestas, selvas, desertos, tundras, praias e cavernas. Três biomas nocivos podem crescer e consumir outros biomas existentes, sendo esses Consagrado, Carmesim e Corrupção. Alguns biomas são apenas acessíveis após certos itens serem adquiridos ou tarefas forem cumpridas, como masmorras, templos, ilhas flutuantes e um sub-mundo. É possível também se encontrar mini-biomas dentro de cada área, como cavernas com cogumelos gigantes, casas abandonadas, salas com tesouros e grutas de pedras preciosas.</p>
+
+    <p>O jogo também possui chefes e eventos especiais, onde o jogador precisa defender a si mesmo ou aos seus companheiros. Atualmente o jogo conta com mais de 30 chefes diferentes, dentre chefes comuns, chefes específicos de eventos e chefes exclusivos de certas versões do jogo. A presença de influências de H. P. Lovecraft é frequente em Terraria, especialmente observada em chefes como Eye of Cthulhu e Brain of Cthulhu.<br>Atualmente, Terraria conta com mais de 3,000 itens diferentes, incluindo armas, ferramentas, armaduras, munições, magias, poções mágicas, montarias, pets e materiais de construção.</p>
+
+    <h2 class="subtitle" id="desenvolvimento"><u><mark>Desenvolvimento</mark></u></h2>
+
+    <p>O desenvolvimento do jogo começou em <b><u>Janeiro de 2011</u></b>, escrito em C# na estrutura Microsoft XNA. Desde Maio de 2011 o jogo tem sido atualizado constantemente com a adição de novos conteúdos e mecânicas. A primeira grande atualização ocorreu em Dezembro de 2011, com a adição de novos atributos que redefiniram o jogo.</p>
+
+    <p>Em Fevereiro de 2012, Redigit, o programador e designer de Terraria, anunciou que Terraria seria descontinuado, e expressou sua vontade em dar prioridade à sua vida pessoal, confirmando apenas uma futura atualização para correção de bugs. Apesar do anúncio, em Janeiro de 2013 foi confirmado o retorno ao desenvolvimento do jogo em tempo integral, com a previsão de uma atualização que novamente dobraria o conteúdo atual e adicionaria novas mecânicas de grande relevância. Durante o desenvolvimento dessa atualização, a equipe de desenvolvimento foi reestruturada e recebeu a adição de novos membros nas áreas de arte e programação.</p>
+
+    <p>Em Outubro e Dezembro de 2013, Terraria recebeu atualizações especiais de Dia das Bruxas e Natal, expandindo consideravelmente o conteúdo do fim do jogo.
+    <br>
+    Novas atualizações continuaram a ser desenvolvidas e lançadas durante 2014 a 2017, com uma nova grande atualização de conteúdo sendo lançada em Junho de 2015, redefinindo o jogo mais uma vez.</p>
+
+    <p>O lançamento de Terraria para a plataforma Google Stadia foi cancelado em Fevereiro de 2021 devido a suspensão da conta Google do desenvolvedor Redigit, uma ação que não foi esclarecida pela Google por três semanas. Mais tarde em Fevereiro, a Google se comunicou com a Re-Logic sobre a situação e restaurou a conta. Depois dessa situação, Re-Logic anunciou que a versão da Terraria para o Google Stadia retornaria, o que aconteceu em 18 de março de 2021.</p>
+    
+    <video controls muted preload="metadata" poster="img/thumbnail.jpg" width="60%"><source src="img/terra.mp4"></video>
+
+    </div>  
+</body>
+</html>

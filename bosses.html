@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terraria</title>
+    <link rel="icon" type="image/x-icon" href="img/icon.png">
+
+    <style type="text/css">
+        body{
+            margin: 0px;
+            font-family: sans-serif;
+
+            background-image: url("img/background.png");
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-size: 100%;
+            background-attachment: fixed;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 1000;
+
+            background-color: #1c1614;
+            color:white;
+            padding: 10px;
+            letter-spacing: 2px; 
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            color: green;
+            text-decoration: underline;
+        }
+
+        nav input[type="text"] {
+            height: unset;
+            padding: 0 26px 0 4px;
+            box-shadow: none;
+            align-self: stretch;
+
+            border-radius: 5px;
+            border-width: 1px;
+            border-style: solid;
+            border-color: lightgray;
+
+            background-color: lightgray;
+            color: black;
+        }
+
+        mark {
+            background-color: white;
+        }
+
+        #titulo {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+
+            width: 40%;
+        }
+
+        #listaNav ol {
+            list-style-type: armenian;
+        }
+
+        .info {
+            border: solid 1px white;
+            border-radius: 5px;
+
+            margin-top: 5vh;
+            display: flex;
+        }
+        
+        .infoText {
+            flex-direction: column;
+            margin-right: 20px ;
+            margin-left: 20px;
+
+            width: 80%;
+        }
+
+        .infoImg {
+            display: block;
+            margin: auto;
+            display: flex;
+            flex-direction: column;
+
+            padding-right: 20px;
+        }
+
+        .infoImg meter {
+            margin: auto;
+            margin-top: 30%;
+        }
+
+        #corpo {
+            margin: 10vh;
+            margin-top: 10vh;
+            margin-bottom: 5vh;
+            padding: 5%;
+
+            line-height: 30px;
+
+            display: flex;
+            flex-direction: column;
+            align-items: justify;
+
+            background-color: #5a433a;
+            color: white;
+            border-radius: 20px;
+        }
+
+        #corpo a {
+            color: #88c288;
+            text-decoration: underline;
+        }
+
+        #corpo a:hover {
+            color: #88c288;
+            text-decoration: underline;
+            font-weight: bolder;
+        }
+    </style>
+
+</head>
+<body>
+    <nav>
+        <span><a href="entrar.html">Entrar</a></span>
+        <span><a href="index.html">Início</a></span>
+        <span><a target="_blank" href="https://store.steampowered.com/app/105600/Terraria/">Compre o jogo</a></span>
+
+        <input type="text" name="busca" placeholder="Buscar">
+    </nav>
+
+    <div id="corpo">
+
+    <div id="listaNav">
+        <img src="img/logoterraria.png" id="titulo">
+
+        <br><hr><br>
+
+        <h1>Índice</h1>
+        <ol>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#olho">Olho de Cthulhu</a></li>
+            <li><a href="#skeletron">Skeletron</a></li>
+            <li><a href="#moonlord">Moon Lord</a></li>
+        </ol>
+    </div>
+
+
+    <h2 id="sobre"><mark>Sobre</mark></h2>
+
+    <p align="justify" >Chefes são inimigos resilientes e agressivos, que mostram um desafio substancial aos jogadores. Derrotar um chefe normalmente é necessário para avançar o jogo de uma maneira ou outra, por exemplo, dando ao jogador um novo material para uma picareta mais forte. Cada um tem seu jeito particular de ser invocado. Por exemplo, a maioria tem itens de invocação associados a eles que podem ser usados para manualmente invocar eles em certas condições, enquanto outros só aparecem quando o jogador interage de uma maneira específica com o ambiente. Chefes de Evento só aparecerão durante seus respectivos eventos e irão embora quando o evento acabar. Minichefes também existem e só aparecem durante eventos especiais, mostrando a mesma dificuldade que muitos chefes do modo normal. A vida deles tem um alcance enorme: No Modo Clássico varia de 1.000 a 145.000.</p>
+
+    <p>A maioria dos chefes e minichefes podem passar por blocos de todos os tipos, com a exceção da Geleia Rei, Geleia Rainha, Lepus, o corpo de Peruno, o Ingrato, e o Holandês Voador. Para todos os chefes fora dos eventos, com a exceção do Cultista Lunático, Mensagens de status aparecerão quando um chefe estiver prestes a aparecer ou quando já apareceu. Quando aparecem, sua música tema tocará. Durante eventos, chefes e mini-chefes podem aparecer múltiplas vezes e não tem nenhuma mensagem específica. No caso de eventos como a Lua de Abóbora, Lua Congelada e o Exército do Ancião, mensagens de status aparecerão ao início de cada onda, as quais indicam se um chefe ou mini-chefe aparecerá. Derrotar um chefe fora de eventos irá concluir com uma mensagem congratulatória e múltiplos itens como recompensa.
+        
+    <p>Na Versão para Computador Versão para Computador, Versão para Console Versão para Console e Versão para Celular Versão para Celular, chefes aparecerão no minimapa, cada um com seu ícone individual. Na Versão para Computador Versão para Computador, Versão para Console Versão para Console e Versão para Celular Versão para Celular, uma barra de vida de chefe aparecerá no inferior da sua tela (ela só mostrará a vida do chefe mais recém-atacado, se existirem vários). Contudo, os chefes ainda aparecerão como o círculo roxo padrão que exibe inimigos na Versão para Console old-gen Versão para Console old-gen.</p>
+
+    <div id="olho" class="info">
+        <div class="infoText">
+        <h3>Olho de Cthulhu</h3>
+        <p >O Olho de Cthulhu é um globo ocular gigantesco com 2 800 / 3 640 / 4 641 de vida. Ele tem uma chance de 1 a 3 de aparecer todas as noites quando o jogador tiver 200 HP ou mais, 3 ou mais NPCs morando em casas, e mais que 10 pontos de defesa. Ele continuará a fazer isso até ele ser derrotado pela primeira vez. Pode também ser invocado usando um Olho Suspeito de noite. Se ele não for derrotado pelo jogador até o final da noite, ele irá subir e desaparecer. Esse é geralmente o primeiro chefe um jogador deve enfrentar. Ele passa por blocos, e invoca Servos de Cthulhu.
+            <br>
+        No Modo Perito (e no Modo Mestre), o Olho de Cthulhu irá fazer múltiplas investidas rápidas em sequência na sua segunda fase, mais frequentemente quando menos vida ele tem. O ataque de investida em corrente também aumentará de acordo com sua agressividade. Isso pode levá-lo á investir continuamente em velocidades altas quando com pouca vida, deixando-o bem difícil para jogadores iniciantes finalizá-lo.</p>
+        </div>
+
+        <div class="infoImg">
+            <img src="img/cthulhu.gif">
+            <meter min="0" max="100" value="40">2.800 hp</meter>
+        </div>
+    </div>
+
+    <div id="skeletron" class="info">
+        <div class="infoText">
+        <h3>Skeletron Prime</h3>
+        <p>O Esqueletron Alfa é uma variante mecanizada armada do Esqueletron, com a cabeça sózinha tendo 28 000 / 42 000 / 53 550 de vida. Ao invés de duas mãos, ele tem quatro membros - um torno, uma arma de laser, uma serra e um canhão. Com a cabeça e todos os membros conectados, o Esqueletron Alfa tem 59 000 / 88 500 / 112 836 PV. Contudo, igual o Esqueletron, só a cabeça tem que ser derrotada. O Esqueletron Alfa pode ser invocado quantas vezes forem necessárias por mundo, fabricando e usando uma Caveira Mecânica, mas ele só pode ser invocado de noite. Ele é mais móvel que seu antecessor, e ele regularmente voa para fora da tela, fazendo que mirar nele seja complicado. Também vale a pena notar que, enquanto rodando, sua defesa aumenta, diferente do Esqueletron, o qual tem sua defesa abaixada a 0 enquanto rodando.
+            <br>
+        O Esqueletron Alfa soltará Barras Consagradas e Almas do Medo ao ser derrotado, os quais são usados para fabricar múltiplos tipos de armadura e ferramentas. Como o Esqueletron, se o Alfa não for derrotado antes do fim da noite, ele irá girar e focar no jogador, geralmente matando-o em um acerto, e irá desaparecer depois.
+            <br>
+        No Modo Perito, o Esqueletron Alfa seguirá as mesmas regras do Esqueletron; ele será menos resistente á dano depois que suas mãos forem destruídas, mas seu crânio ganhará o dobro de defesa enquanto fazendo seu ataque giratório comparado ao Esqueletron no Modo Normal.</p>
+        </div>
+
+        <div class="infoImg">
+            <img src="img/skeletron.gif">
+            <meter min="0" max="100" value="60">28.000 hp</meter>
+        </div>
+    </div>
+
+    <div id="moonlord" class="info">
+        <div class="infoText">
+        <h3>Moon Lord</h3>
+        <p>O Senhor da Lua é o chefe final do Terraria, e solta a maioria dos itens do final de jogo, como a Espada-gato. Ele também solta Luminita, um minério usado para fabricar muitos conjuntos de armadura e ferramentas. Ele é invocado ao derrotar todas as quatro Colunas Celestiais dos Eventos Lunares, ou ao usar um Símbolo Celestial. Ele tem uma vida combinada de 145 000 / 217 500 / 277 311, a maior quantidade de vida de qualquer chefe do jogo. Ele é considerado o chefe mais complicado no jogo.
+            <br>
+        O Senhor da Lua tem duas mãos e uma cabeça que devem ser derrotadas atacando os olhos nelas, e quando derrotadas soltarão Verdadeiros Olhos de Cthulhu. Quando os três olhos forem destruídos, o núcleo do Senhor da Lua abrirá em seu peitoral, o qual deve ser destruído para derrotar o chefe.
+            <br>
+        As mãos do Senhor da Lua soltam dois projéteis de uma vez que teleguiam-se no jogador, e invocam versões fantasma dos Verdadeiros Olhos de Cthulhu para lançar no jogador. O olho superior do Senhor da Lua ocasionalmente soltará um Raio da Morte Fantasmagórico que irá varrer pela tela inteira. Sendo bem mortal para os jogadores, ele pode ser evitado escondendo-se debaixo de blocos sólidos (Na 1.4.0.1, ele passará por blocos), ou tentando evitar sua fúria numa montaria voadora. Quando os Verdadeiros Olhos de Cthulhu forem lançados, os lugares onde eles costumavam ficar ainda infligirão mero dano por contato. Os Verdadeiros Olhos de Cthulhu podem lançar vários dos ataques que eles podiam quando ainda estavam conectados ao Senhor da Lua, mas com menos dano.
+            <br>
+        No Modo Perito, O Raio da Morte Fantasmagórico do Senhor da Lua dará muito mais dano, o suficiente para matar um jogador em um acerto.</p>
+        </div>
+
+        <div class="infoImg">
+            <img src="img/moonlord.png">
+            <meter min="0" value="100">145.000 hp</meter>
+        </div>
+    </div>
+    
+    </div>
+</body>
+</html>
